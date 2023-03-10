@@ -1,0 +1,64 @@
+p {
+    font-size: large;
+    color: blue;
+    margin: 16px;
+}
+h2 {
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: indianred;
+}
+ol{
+    list-style: circle inside url(./assets/icons/certificate.png);
+    font-size: x-large;
+    color: blue;
+}
+ul{
+    list-style: circle inside url(./assets/icons/programming-course.png);
+    font-size: x-large;
+    color: blue;
+}
+#project{
+    list-style: circle inside url(./assets/icons/box.png);
+    font-size: x-large;
+    color: blue;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(221, 65, 65, 0.1);
+  }
+  
+  button[type="submit"] {
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #16a085;
+  }
+  
